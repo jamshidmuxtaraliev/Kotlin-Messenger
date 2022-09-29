@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen.autentification.RegisterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C4E3E2"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnSelectImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cardCornerRadius="60dp"
+            app:cardElevation="2dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#09C6B3">
+                <TextView
+                    android:id="@+id/textSelectFoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="SELECT \n PHOTO"
+                    android:textColor="@color/white"
+                    android:textStyle="bold|normal"/>
+                <ImageView
+                    android:id="@+id/imageUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_launcher_foreground"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:hint="username"
+            android:padding="6dp"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:layout_marginHorizontal="40dp"
+            android:background="@drawable/edittext_bacground"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:padding="6dp"
+            android:hint="e-mail"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:layout_marginHorizontal="40dp"
+            android:background="@drawable/edittext_bacground"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:padding="6dp"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:hint="password"
+            android:layout_marginHorizontal="40dp"
+            android:background="@drawable/edittext_bacground"
+            android:inputType="text" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSign"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Register"
+            android:textSize="16sp"
+            app:cornerRadius="30dp"
+            android:backgroundTint="#09C6B3"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Allready have an account?"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</FrameLayout>

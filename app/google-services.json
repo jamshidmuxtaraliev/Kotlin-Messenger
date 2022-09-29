@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "836045988122",
+    "project_id": "my-messenger-e269d",
+    "storage_bucket": "my-messenger-e269d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836045988122:android:b86bdd5ff146eaef608ca3",
+        "android_client_info": {
+          "package_name": "uz.bdm.kotlinmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836045988122-r54ri636kd165bcvi1aonclio5il5vau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-caG6paloSFq1t_7RohQABYkiWI39W8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836045988122-r54ri636kd165bcvi1aonclio5il5vau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
